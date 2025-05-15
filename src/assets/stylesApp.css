@@ -1,0 +1,135 @@
+
+
+/* Globale Stile */
+html, body {
+  height: 100%; /* Volle Höhe für den Viewport */
+  margin: 0; /* Kein Abstand */
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Die gesamte Höhe des Viewports */
+}
+
+.router-view {
+  flex: 1; /* Der Hauptinhalt füllt den verfügbaren Platz */
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+}
+
+.nav-wrapper a,
+.nav-wrapper li a {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  min-width: 180px !important;
+  max-width: 300px !important;
+}
+
+.dropdown-content li > a {
+  color: gray !important;
+  padding: 10px 20px;
+}
+
+.dropdown-content li.divider {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #000000;
+}
+
+.dropdown-content li > a:hover {
+  background-color: #4b5664;
+  color: #ffffff !important;
+}
+
+.mein-bild {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 30%;
+  transform: rotate(270deg);
+}
+
+.non-clickable1 {
+  color: lightgray !important;
+  font-weight: lighter;
+  cursor: default;
+}
+
+.non-clickable2 {
+  color: black !important;
+  margin-top: -25px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.header-image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.header-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-image {
+  height: 12vh;
+}
+
+.image-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 0%;                     /*Höhe des Footers */
+  line-height: 10px;              /* Zentriert den Text vertikal */
+  padding-bottom: 10px;           /* Entferne zusätzliches Padding */
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.footer-logo {
+  width: 35px;
+  height: auto;
+}

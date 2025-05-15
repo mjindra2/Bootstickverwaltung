@@ -1,0 +1,166 @@
+{
+  "stickGroups": [
+    {
+      "groupId": "001-005",
+      "groupType": "boot",
+      "stickType": "Boot-Stick",
+      "numberOfSticks": 2,
+      "sticks": [
+        {
+          "inventoryNumber": "001",
+          "type": "Boot-Stick",
+          "condition": "Gebraucht",
+          "storageCapacity": "16GB",
+          "manufacturer": "SanDisk",
+          "model": "3",
+          "serialNumber": "123456789",
+          "availability": "Reserviert",
+          "startDate": "2025-04-09",
+          "endDate": "2025-04-17",
+          "user": "admin",
+          "note": ""
+        },
+        {
+          "inventoryNumber": "002",
+          "type": "Boot-Stick",
+          "condition": "Neu",
+          "storageCapacity": "16GB",
+          "manufacturer": "SanDisk",
+          "model": "3",
+          "serialNumber": "223456789",
+          "availability": "Verfügbar"
+        }
+      ]
+    },
+    {
+      "groupId": "006-010",
+      "groupType": "data",
+      "stickType": "Daten-Stick",
+      "numberOfSticks": 3,
+      "sticks": [
+        {
+          "inventoryNumber": "005",
+          "type": "Daten-Stick",
+          "condition": "Neu",
+          "storageCapacity": "32GB",
+          "manufacturer": "Kingston",
+          "model": "Exodia",
+          "serialNumber": "0987654321",
+          "availability": "Reserviert",
+          "startDate": "2025-04-09",
+          "endDate": "2025-04-24",
+          "user": "admin",
+          "note": ""
+        },
+        {
+          "inventoryNumber": "006",
+          "type": "Daten-Stick",
+          "condition": "Neu",
+          "storageCapacity": "16GB",
+          "manufacturer": "Kingston",
+          "model": "Exodia",
+          "serialNumber": "987987987",
+          "availability": "Verfügbar"
+        },
+        {
+          "inventoryNumber": "007",
+          "type": "Daten-Stick",
+          "condition": "Defekt",
+          "storageCapacity": "64GB",
+          "manufacturer": "Kingston",
+          "model": "4",
+          "serialNumber": "SN1324567890",
+          "availability": "Verfügbar"
+        }
+      ]
+    },
+    {
+      "groupId": "008",
+      "groupType": "boot",
+      "stickType": "Boot-Stick",
+      "numberOfSticks": 1,
+      "sticks": [
+        {
+          "inventoryNumber": "008",
+          "type": "Boot-Stick",
+          "condition": "Gebraucht",
+          "storageCapacity": "32GB",
+          "manufacturer": "Kingston",
+          "model": "1",
+          "serialNumber": "SN123",
+          "availability": "Verfügbar"
+        }
+      ]
+    }
+  ],
+  "allSticks": [
+    {
+      "inventoryNumber": "001",
+      "type": "Boot-Stick",
+      "condition": "Gebraucht",
+      "storageCapacity": "16GB",
+      "manufacturer": "SanDisk",
+      "model": "3",
+      "serialNumber": "123456789",
+      "availability": "Reserviert",
+      "startDate": "2025-04-09",
+      "endDate": "2025-04-17",
+      "user": "admin",
+      "note": ""
+    },
+    {
+      "inventoryNumber": "002",
+      "type": "Boot-Stick",
+      "condition": "Neu",
+      "storageCapacity": "16GB",
+      "manufacturer": "SanDisk",
+      "model": "3",
+      "serialNumber": "223456789",
+      "availability": "Verfügbar"
+    },
+    {
+      "inventoryNumber": "005",
+      "type": "Daten-Stick",
+      "condition": "Neu",
+      "storageCapacity": "32GB",
+      "manufacturer": "Kingston",
+      "model": "Exodia",
+      "serialNumber": "0987654321",
+      "availability": "Reserviert",
+      "startDate": "2025-04-09",
+      "endDate": "2025-04-24",
+      "user": "admin",
+      "note": ""
+    },
+    {
+      "inventoryNumber": "006",
+      "type": "Daten-Stick",
+      "condition": "Neu",
+      "storageCapacity": "16GB",
+      "manufacturer": "Kingston",
+      "model": "Exodia",
+      "serialNumber": "987987987",
+      "availability": "Verfügbar"
+    },
+    {
+      "inventoryNumber": "007",
+      "type": "Daten-Stick",
+      "condition": "Defekt",
+      "storageCapacity": "64GB",
+      "manufacturer": "Kingston",
+      "model": "4",
+      "serialNumber": "SN1324567890",
+      "availability": "Verfügbar"
+    },
+    {
+      "inventoryNumber": "008",
+      "type": "Boot-Stick",
+      "condition": "Gebraucht",
+      "storageCapacity": "32GB",
+      "manufacturer": "Kingston",
+      "model": "1",
+      "serialNumber": "SN123",
+      "availability": "Verfügbar"
+    }
+  ]
+}
